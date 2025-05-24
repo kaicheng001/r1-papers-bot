@@ -14,7 +14,9 @@
 
 ### 1. 创建 GitHub App
 
-访问 https://github.com/settings/apps/new，配置：
+访问 https://github.com/settings/apps/new，
+
+配置：
 
 **基本信息：**
 - App name: `R1 Papers Auto Update Bot`
