@@ -1,0 +1,21 @@
+# GitHub App 配置文件
+
+# 订阅的事件
+default_events:
+  - repository_dispatch
+  - issue_comment
+  - pull_request
+  - ping
+
+# GitHub App 权限设置
+default_permissions:
+  contents: write
+  pull_requests: write
+  issues: write
+  metadata: read
+  checks: write
+
+# 应用信息
+description: "A bot that automatically updates R1-related papers from ArXiv"
+homepage: "https://github.com/kaicheng001/r1-papers-bot"
+name: "R1 Papers Auto Update Bot"
